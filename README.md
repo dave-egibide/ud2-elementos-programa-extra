@@ -15,3 +15,4 @@ Ejercicios extra de programación estructurada.
 
 - [Ejercicio 1 - Figuras](./01_figuras/).
 - [Ejercicio 2 - Lotería](./02_loteria/).
+- [Ejercicio 3 - Oware](./03_oware/).
