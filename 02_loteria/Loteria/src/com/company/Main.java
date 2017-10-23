@@ -11,13 +11,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Random r = new Random();
 
-        int num1 = 0;
-        int num2 = 0;
-        int num3 = 0;
-        int num4 = 0;
-        int num5 = 0;
-        int est1 = 0;
-        int est2 = 0;
+        int num1, num2, num3, num4, num5, est1, est2;
 
         System.out.println("Introduzca el número de boletos aleatorios de Euromillones");
         int x = Integer.parseInt(br.readLine());
@@ -42,20 +36,7 @@ public class Main {
                 est2 = r.nextInt(11)+1;
             } while (est2 == est1);
 
-            System.out.print("Núm.: ");
-            System.out.print(num1);
-            System.out.print(" ");
-            System.out.print(num2);
-            System.out.print(" ");
-            System.out.print(num3);
-            System.out.print(" ");
-            System.out.print(num4);
-            System.out.print(" ");
-            System.out.print(num5);
-            System.out.print(" Est.: ");
-            System.out.print(est1);
-            System.out.print(" ");
-            System.out.println(est2);
+            System.out.println("Núm.: " + num1 + " " + num2 + " " + num3 + " " + num4 + " " + num5 + " Est.: " + est1 + " " + est2);
         }
     }
 }
